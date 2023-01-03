@@ -1,0 +1,173 @@
+
+body {
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+  #mySidenav a:hover {
+    left: 0; 
+  }
+
+  .sideNavLink {
+    position: absolute; 
+    left: -96px;
+    transition: .3s cubic-bezier(0.42, 0, 0.06, 1.37);
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+    border: 2px solid rgb(255, 255, 255);
+    border-left: none;
+    background-color: #3c3c3c;
+    font-size: 20px; 
+    z-index: 4;
+  }
+
+  .sideNavLink-Active {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+  }
+  
+  #blog {
+    top: 80px;
+  }
+  
+  #projects {
+    top: 140px;
+
+  }
+  
+  #gallery {
+    top: 200px;
+  }
+
+  #contact {
+    top: 260px;
+  }
+
+@keyframes ani2 {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes ani5 {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes ani3 {
+  0%{
+    transform:translateY(50px);
+  }
+  100% {
+    transform:translateY(0);
+  }
+}  
+
+@keyframes ani4 {
+  0%{
+    transform:translateX(50px);
+  }
+  100% {
+    transform:translateX(0);
+  }
+}  
+
+  @media (max-width: 1300px) {
+    #quarter-circle {
+        opacity: 0.9;
+        }}
+
+  @media (max-width: 1200px) {
+    #quarter-circle {
+      opacity: 0.9;
+    }}
+
+    @media (max-width: 1100px) {
+        #quarter-circle {
+          opacity: 0.8;
+        }}
+    
+
+    @media (max-width: 1000px) {
+        #quarter-circle {
+          opacity: 0.7;
+        }}
+
+    @media (max-width: 900px) {
+            #quarter-circle {
+              opacity: 0.6;
+            }}
+
+    @media (max-width: 800px) {
+            #quarter-circle {
+                opacity: 0.5;
+                }}
+
+                @media (max-width: 700px) {
+                    #quarter-circle {
+                        opacity: 0.4;
+                        }}
+
+                        @media (max-width: 600px) {
+                            #quarter-circle {
+                                opacity: 0.2;
+                                }}
+  @media (max-width: 1300px) {
+    #quarter-circle2 {
+        opacity: 0.9;
+        }}
+
+  @media (max-width: 1200px) {
+    #quarter-circle2 {
+      opacity: 0.9;
+    }}
+
+    @media (max-width: 1100px) {
+        #quarter-circle2 {
+          opacity: 0.8;
+        }}
+    
+
+    @media (max-width: 1000px) {
+        #quarter-circle2 {
+          opacity: 0.7;
+        }}
+
+    @media (max-width: 900px) {
+            #quarter-circle2 {
+              opacity: 0.6;
+            }}
+
+    @media (max-width: 800px) {
+            #quarter-circle2 {
+                opacity: 0.5;
+                }}
+
+                @media (max-width: 700px) {
+                    #quarter-circle2 {
+                        opacity: 0.4;
+                        }}
+
+                        @media (max-width: 600px) {
+                            #quarter-circle2 {
+                                opacity: 0.2;
+                                }}
+

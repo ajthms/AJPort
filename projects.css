@@ -1,0 +1,47 @@
+  h3 {
+    font-size: 30px;
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 10px 0;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  img {
+    max-width: 600px;
+    border: 2px solid white;
+    box-shadow: 0px 5px 10px black;
+  }
+
+  .ajolan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .sober {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    animation: ani2 2s ease-out .5s forwards, ani3 2s ease .5s forwards;
+    opacity: 0;
+    height: 100vh;
+    
+  }

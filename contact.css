@@ -1,0 +1,50 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    animation: ani2 2s ease-out .5s forwards, ani3 2s ease .5s forwards;
+      opacity: 0;
+  }
+  
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    color: rgb(0, 0, 0);
+    padding: 4px;
+    font-size: 20px;
+    animation: ani2 2s ease-out .5s forwards, ani3 2s ease .5s forwards;
+      opacity: 0;
+  }
+  
+  .AJ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    animation: ani2 2s ease-out .5s forwards, ani3 2s ease .5s forwards;
+      opacity: 0;
+  }
+  
+  .socials {
+    position: relative;
+    top: 4px;
+    right: 3px;
+  }
+  
+  .contacts {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      margin: 10px;
+  }
+  
