@@ -11,10 +11,12 @@
     line-height: 1.5;
     text-align: center;
     max-width: 600px;
+    width: 100%;
   }
   
   img {
     max-width: 600px;
+    width: 100%;
     border: 2px solid white;
     box-shadow: 0px 5px 10px black;
   }
@@ -43,5 +45,5 @@
     animation: ani2 2s ease-out .5s forwards, ani3 2s ease .5s forwards;
     opacity: 0;
     height: 100vh;
-    
+
   }
