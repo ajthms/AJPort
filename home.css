@@ -7,6 +7,12 @@
     padding: 20 px;
   }
 
+  @media (max-width: 600px) {
+    #enter {
+      font-size: 80px;
+    }
+  }
+
 .wrapper-text { 
       text-align: center;
       letter-spacing: 5px;
