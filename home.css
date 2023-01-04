@@ -4,6 +4,7 @@
     font-size: 100px;
     animation: ani5 3s ease-out 1s forwards;
     opacity: 0;
+    margin: 20px;
   }
 
 .wrapper-text { 
