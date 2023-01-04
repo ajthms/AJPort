@@ -79,20 +79,7 @@
   
   .container img {
     max-height: 600px;
-  }
-  
-  @media (max-width: 600px) {
-    .container img {
-      max-width: 95vw;
-      max-height: none;
-    }
-  }
-
-  @media (max-width: 450px) {
-    .container img {
-      max-width: 95vw;
-      max-height: none;
-    }
+    max-width: 95vw;
   }
 
   #imgtext {
