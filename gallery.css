@@ -83,16 +83,14 @@
   
   @media (max-width: 600px) {
     .container img {
-      max-width: 550px;
-      margin: 10px;
+      max-width: 95vw;
       max-height: none;
     }
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 450px) {
     .container img {
-      max-width: 380px;
-      margin: 10px;
+      max-width: 95vw;
       max-height: none;
     }
   }
