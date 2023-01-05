@@ -34,6 +34,10 @@ li {
   cursor: pointer;
 }
 
+#nav-toggle.active div:nth-child(1) {
+  opacity: 0;
+}
+
 #nav-toggle.active div:nth-child(2) {
   opacity: 0;
 }
