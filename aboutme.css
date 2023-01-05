@@ -59,7 +59,7 @@
     margin: 0 auto;
     position: absolute;
     top: 20%;
-    left: 10%;
+    left: 5%;
     transform: translateY(-50%);
     z-index: 3;
     animation: ani2 2s ease-out 0s forwards, ani3 2s ease 0s forwards;
