@@ -9,6 +9,64 @@ body {
     margin: 0;
 }
 
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+  font-size: 20px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  color: rgb(0, 0, 0);
+  padding: 4px;
+  font-size: 20px;
+}
+
+#nav-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+#nav-toggle.active div:nth-child(2) {
+  opacity: 0;
+}
+
+#nav-toggle.active div:nth-child(3) {
+  opacity: 0;
+}
+
+#mySidenav2 {
+  display: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 5;
+}
+
+#mySidenav2 a {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+#mySidenav2 a:hover {
+  background-color: #3c3c3c;
+}
+
   #mySidenav a:hover {
     left: 0; 
   }
@@ -171,3 +229,33 @@ body {
                                 opacity: 0.2;
                                 }}
 
+@media (max-width: 700px) {
+
+  #nav-toggle {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 5;
+  }
+  
+  #mySidenav {
+    display: none;
+    z-index: 1;
+  }
+
+  #mySidenav2.active {
+    display: flex;
+    
+  }
+
+  #nav-toggle div {
+  
+    display: block;
+    background: white;
+    height: 3px;
+    width: 26px;
+    margin: 6px 0;
+}
+
+}

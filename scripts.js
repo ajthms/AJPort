@@ -6,3 +6,11 @@ function myFunction(imgs) {
     expandImg.parentElement.style.display = "flex";
   }
 
+  const navToggle =
+      document.getElementById('nav-toggle');
+const navMenu =
+      document.getElementById('mySidenav2');
+navToggle.addEventListener('click', () => {
+                                   navToggle.classList.toggle('active');
+      navMenu.classList.toggle('active');                  
+});
